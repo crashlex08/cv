@@ -1,0 +1,161 @@
+/* Import police */
+@font-face {
+  font-family: "Fira Code Medium";
+  src: url("FiraCode-Medium.ttf"); /* IE9 Compat Modes */
+}
+
+html {
+  background-color: #353535;
+  font-family: "Fira Code Medium", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+}
+/* CSS PC */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titre-rouge {
+  color: #ea8380;
+  align-items: baseline;
+}
+.titre {
+  color: #fdea9a;
+  font-size: 128px;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.chevron {
+  color: #5be2e7;
+}
+.slash {
+  color: #5be2e7;
+}
+
+.entreprise {
+  color: #5be2e7;
+}
+.phone {
+  color: #fdea9a;
+}
+.E-mail {
+  color: #fdea9a;
+}
+.Name {
+  color: #fdea9a;
+}
+
+/* Enlève le soulignement des liens */
+a {
+  text-decoration: none;
+  padding-right: 1px;
+}
+
+a:hover {
+  color: #c0fdff;
+}
+
+/* Partie gauche */
+.leftBlock {
+  float: left;
+  background-color: #353535;
+  padding: 2%;
+  overflow-x: auto;
+}
+
+.name .subname {
+  font-size: 15px;
+}
+
+.aboutme {
+  font-size: 13px;
+  color: #e6e6e6;
+}
+
+/* Coordonnées/Hobbies */
+.leftBlock .uppertitle {
+  font-size: 21px;
+  color: #c0fdff;
+}
+
+.location {
+  font-size: 13px;
+  color: #e6e6e6;
+}
+
+.hobbies {
+  font-size: 13px;
+  color: #e6e6e6;
+}
+/* Partie droite */
+.rightBlock {
+  float: right;
+  background-color: #353535;
+  margin-right: -25%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  overflow-x: auto;
+}
+
+/* Compétences/Expérience/Formations */
+.rightBlock .uppertitle {
+  font-size: 21px;
+  color: #90a4ff;
+}
+
+/* Titre */
+.rightBlock .title {
+  font-size: 19px;
+}
+
+/* Date */
+.rightBlock .subtitle {
+  font-size: 15px;
+  color: #585656;
+}
+
+/* Texte */
+.rightBlock .text {
+  font-size: 13px;
+  color: #ffffff;
+}
+/* Responsive téléphone (testé uniquement sur Samsung Galaxy S8 et page responsive web)*/
+@media screen and (max-width: 800px) {
+  .rectangle {
+    width: 120px;
+    height: 120px;
+  }
+  .leftBlock {
+    padding-right: 50px;
+  }
+}
